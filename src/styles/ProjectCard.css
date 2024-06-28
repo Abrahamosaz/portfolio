@@ -1,0 +1,44 @@
+.proj-txtx {
+  padding: 30px;
+  padding-bottom: 45px;
+  height: 100%;
+}
+
+.project__content {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.project__content h4 {
+  font-size: 20px;
+}
+
+.project__content span {
+  font-size: 12px;
+  width: 90%;
+  text-align: start;
+}
+
+.github_icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.project_visit_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project_visit {
+  font-size: 15px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

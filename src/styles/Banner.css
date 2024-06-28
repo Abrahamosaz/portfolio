@@ -1,0 +1,21 @@
+.banner .hero_details {
+  font-size: 40px;
+}
+
+.banner .download_container {
+  display: flex;
+  gap: 50px;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .banner .hero_details {
+    font-size: 30px;
+  }
+
+  .banner .download_container {
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  #projects .nav-pills .project_tab {
+    font-size: 10px;
+  }
+}
