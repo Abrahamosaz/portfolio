@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .newsletter-bx {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .newsletter-bx .new-email-bx > button {
+    padding: 20px 30px;
+  }
+}

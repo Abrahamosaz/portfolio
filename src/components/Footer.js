@@ -3,6 +3,7 @@ import { MailchimpForm } from "./MailchimpForm";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import navIcon5 from "../assets/img/nav-icon5.svg";
+import "../styles/Footer.css";
 
 export const Footer = () => {
   return (
@@ -12,7 +13,12 @@ export const Footer = () => {
           <MailchimpForm />
           <Col size={12} sm={6}>
             {/* <img src={logo} alt="Logo" /> */}
-            <h1 style={{ color: "#fff", fontSize: "25px" }}>Abrahamosaz_</h1>
+            <h1
+              className="footer__abraham"
+              style={{ color: "#fff", fontSize: "25px" }}
+            >
+              Abrahamosaz_
+            </h1>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

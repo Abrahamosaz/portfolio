@@ -2,4 +2,8 @@
   #projects .nav-pills .project_tab {
     font-size: 10px;
   }
+
+  .project__con > p {
+    margin: 0px;
+  }
 }

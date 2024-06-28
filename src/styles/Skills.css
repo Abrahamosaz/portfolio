@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .skill-bx {
+    padding: 10px;
+  }
+
+  #projects .project__p {
+    width: 90%;
+  }
+}
