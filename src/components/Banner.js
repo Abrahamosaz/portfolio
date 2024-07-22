@@ -95,8 +95,8 @@ export const Banner = () => {
                   </button>
 
                   <a
-                    href="path/to/your-cv.pdf"
-                    download="YourName_CV.pdf"
+                    href="frontend_cv.pdf"
+                    download="Abraham_CV.pdf"
                     class="download-btn"
                   >
                     Download CV
