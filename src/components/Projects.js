@@ -4,6 +4,7 @@ import jpgold from "../assets/img/jpgold.png";
 import jpaulNft from "../assets/img/jpaulNft.png";
 import Spikesubs from "../assets/img/spikesubs.png";
 import Kemdiattire from "../assets/img/kemdiattire.png";
+import DuduStock from "../assets/img/dudustock.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -33,6 +34,13 @@ export const Projects = () => {
         "JP Gold Coin promises beyond what the best cryptocurrencies like BTC and other altcoins offer the investors. It sustains the wealth because it is backed by physical gold that guarantees and preserves value",
       imgUrl: jpgold,
       link: "https://new-jp-gold.vercel.app/",
+    },
+    {
+      title: "Dudustock",
+      description:
+        "A collection of black and afrocentric media for your masterpiece. Dive into a vibrant tapestry of black media experiences.",
+      imgUrl: DuduStock,
+      link: "https://dudustock.vercel.app/",
     },
   ];
 

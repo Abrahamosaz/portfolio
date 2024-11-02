@@ -66,7 +66,7 @@ export const Banner = () => {
             >
               <div>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1 className="hero_details">
+                {/* <h1 className="hero_details">
                   Hi! I'm Abraham
                   <TypeWriter
                     options={{
@@ -80,23 +80,23 @@ export const Banner = () => {
                       ],
                     }}
                   />{" "}
-                </h1>
+                </h1> */}
                 <p>
-                  I am skilled in Full Stack Web Development, proficient in both
-                  front-end and back-end technologies, with expertise throughout
-                  the entire web development process. I'm also interested in
-                  Blockchain development and passionate about creating
-                  user-friendly mobile experiences.
+                  Throughout my career as a software engineer, I have focused on
+                  developing scalable, testable, and well-documented code. I
+                  enjoy working collaboratively but can also run projects
+                  independently. I have managed a cross-functional team
+                  efficiently. Just making life better with Java, Node.js,
+                  React.js, React Native, Python, Nest.js, Next.js.
                 </p>
 
                 <div className="download_container">
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
-
                   <a
-                    href="frontend_cv.pdf"
-                    download="Abraham_CV.pdf"
+                    href="abraham-omorisiagbon-cv.pdf"
+                    download="omorisiagbon-abraham.pdf"
                     class="download-btn"
                   >
                     Download CV

@@ -17,7 +17,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
           <div className="project_visit_container">
             <FaGithub className="github_icon" />
             <div
-              onClick={() => (window.location = link)}
+              onClick={() => window.open(link, "_blank")}
               className="project_visit"
             >
               VISIT
